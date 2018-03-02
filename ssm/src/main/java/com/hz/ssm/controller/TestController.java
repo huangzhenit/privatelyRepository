@@ -21,7 +21,7 @@ public class TestController {
 	@Resource
 	private ITestService testServiceImpl;
 	
-	@ApiOperation("列表12") 
+	@ApiOperation("列表123") 
 	@RequestMapping(value="/userList", method = RequestMethod.GET,produces = "application/json;charset=utf-8") 
 	@ResponseBody   
     public List<Leader> userList(){   
